@@ -6,7 +6,7 @@ function Technology() {
     useEffect(() => {
       const FetchNews = async () => {
         const API_KEY5=import.meta.env.VITE_API_KEY
-        const response = await fetch(`https://gnews.io/api/v4/top-headlines?category=sports&country=in&lang=en&apikey=${API_KEY5}`)
+        const response = await fetch(`https://gnews.io/api/v4/top-headlines?category=technology&country=in&lang=en&apikey=${API_KEY5}`)
         if (!response.ok) {
           alert("Error")
         }
