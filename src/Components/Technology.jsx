@@ -28,7 +28,7 @@ function Technology() {
           {News.articles.map((n, index) => (
             <div className="shadow-md drop-shadow-2xl bg-slate-100 mb-4 rounded border-red-950 p-2" key={index}>
               <h2 className="text-red-950 text-lg font-bold">{n.title}</h2>
-              <img src={n.image} />
+              <img className="rounded-xl" src={n.image} />
               <p className="text-lg font-light">{n.content}</p>
               <p>Published on:-{new Date(n.publishedAt).toLocaleDateString()}</p>
             </div>
