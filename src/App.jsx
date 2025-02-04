@@ -7,11 +7,12 @@ import Technology from "./Components/Technology.jsx"
 import Health from "./Components/Health.jsx"
 
 
-function App() {
 
+function App() {
 
   return (
     <>
+    
       <Router>
         <Nav />
         <div>
@@ -25,6 +26,7 @@ function App() {
         </div>
         
       </Router>
+ 
     </>
   )
 }
